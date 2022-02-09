@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+  background-color: #151618;
+  color: #eeeeee;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.container {
+  max-width: 60%;
+}
+.mainTitle {
+  font-weight: 700;
+}
+
+main {
+  margin-top: 1.5rem;
+}
+.banner {
+  margin-top: 1.5rem;
+}
+
+.introText {
+  margin-top: 1.5rem;
+  color: #a9abb3;
+  size: 18px;
+}
+.fotoFelipe {
+  margin-top: 1.5rem;
+  border-radius: 100px;
+  width: 100%;
+}
+
+.blink {
+  animation: blinker 0.7s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
