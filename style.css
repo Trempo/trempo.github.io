@@ -2,10 +2,20 @@ html,
 body {
   height: 100%;
   background-color: #151618;
-  color: #eeeeee;
+  color: #a9abb3;
   font-family: "JetBrains Mono", monospace;
 }
 
+nav {
+  background-color: #151618;
+}
+.navlink {
+  font-size: 16px;
+  color: darkviolet;
+}
+.navlink:hover {
+  color: violet;
+}
 .container {
   max-width: 60%;
 }
@@ -22,17 +32,47 @@ main {
 
 .introText {
   margin-top: 1.5rem;
-  color: #a9abb3;
+
   size: 18px;
 }
 .fotoFelipe {
   margin-top: 1.5rem;
-  border-radius: 100px;
+  max-width: 200px;
+  border-radius: 1000px;
   width: 100%;
+}
+
+.iconRow {
+  width: 100%;
+}
+
+a {
+  padding-right: 15px;
+}
+.socialMediaIcons {
+  height: 32px;
+  width: 32px;
+  border-radius: 100px;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.socialMediaIcons:hover {
+  transform: scale(1.2);
 }
 
 .blink {
   animation: blinker 0.7s step-start infinite;
+}
+
+h1,
+h2,
+h5 {
+  color: #eeeeee;
+}
+
+small {
+  font-weight: 100;
 }
 
 @keyframes blinker {
