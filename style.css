@@ -170,3 +170,7 @@ footer {
     background-position: 100% 0;
   }
 }
+
+.iconRow > a {
+  padding-left: 15px;
+}
