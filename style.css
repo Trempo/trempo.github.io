@@ -32,6 +32,7 @@ nav {
 
 main {
   margin-top: 1.5rem;
+  padding-bottom: 15%;
 }
 .banner {
   margin-top: 1.5rem;
@@ -53,7 +54,15 @@ main {
   width: 100%;
 }
 
-a {
+.inpanchor {
+  color: aqua;
+}
+
+.inpanchor:hover {
+  color: blue;
+}
+
+nav * > a {
   padding-right: 15px;
 }
 .socialMediaIcons {
@@ -106,5 +115,58 @@ small {
 @keyframes blinker {
   50% {
     opacity: 0;
+  }
+}
+
+.imageTucan {
+  transition: all 0.2s ease-in-out;
+}
+
+.imageTucan:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  padding-bottom: 100px;
+  font-size: 12px;
+}
+#shadowBox {
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Black w/opacity/see-through */
+  border: 3px solid;
+}
+
+.rainbow {
+  text-align: center;
+  text-decoration: underline;
+  font-family: monospace;
+  letter-spacing: 5px;
+}
+.rainbow_text_animated {
+  background: linear-gradient(
+    to right,
+    #6666ff,
+    #0099ff,
+    #00ff00,
+    #ff3399,
+    #6666ff
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
   }
 }

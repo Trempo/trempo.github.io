@@ -44,10 +44,10 @@
           <div class="col-md-9 col-12">
             <p class="introText">
               Currently studying Computer Engineering at Universidad de los
-              Andes. Passionate learner and avid programmer.
+              Andes. I'm a quick learner and avid programmer.
             </p>
             <p class="introText">
-              I really like cars and like to exercise on my free time.
+              I have a passion for cars and enjoy to exercise on my free time.
             </p>
             <div class="d-flex iconRow">
               <a target="_blank" href="https://github.com/trempo">
@@ -92,7 +92,7 @@
             </div>
 
             <small class="pb-2">(Skillset)</small>
-            <h6>Frontend Developement</h6>
+            <h6>>Frontend Developement</h6>
             <div class="d-inline-flex flex-wrap">
               <a
                 tabindex="0"
@@ -150,7 +150,7 @@
               >
             </div>
 
-            <h6>Backend Developement</h6>
+            <h6>>Backend Developement</h6>
             <div class="d-inline-flex flex-wrap">
               <a
                 tabindex="0"
@@ -204,31 +204,13 @@
                 role="button"
                 data-bs-toggle="popover"
                 data-bs-trigger="focus"
-                data-bs-content="I love working with Firebase for quick prototyping and authentication services."
-                >Firebase</a
-              >
-              <a
-                tabindex="0"
-                class="btn btn-outline-dark libraries m-2"
-                role="button"
-                data-bs-toggle="popover"
-                data-bs-trigger="focus"
                 data-bs-content="I'm very proficient with SQL and managing relational databases."
                 >SQL (MySQL, MariaDB, Oracle</a
               >
             </div>
 
-            <h6>Devops</h6>
+            <h6>>Devops</h6>
             <div class="d-inline-flex flex-wrap">
-              <a
-                tabindex="0"
-                class="btn btn-outline-dark libraries m-2"
-                role="button"
-                data-bs-toggle="popover"
-                data-bs-trigger="focus"
-                data-bs-content="I love working with Firebase for quick prototyping and authentication services."
-                >Firebase</a
-              >
               <a
                 tabindex="0"
                 class="btn btn-outline-dark libraries m-2"
@@ -285,21 +267,78 @@
               >
             </div>
           </div>
+          <div class="row pt-4">
+            <h4 id="projectstitle">Projects</h4>
+            <p>
+              This are my biggest and proudest projects, their code is in my
+              <a class="inpanchor" target="_blank" href="github.com/trempo"
+                >GitHub</a
+              >
+              along with more projects.
+            </p>
+            <h6>>Tucan.news</h6>
+            <p>
+              Tucan was my first ever project. It was developed using Vue and
+              Bootstrap for the frontend, and Node and Express for the backend.
+              It used an API to aggregate news from multiple sources and had
+              user authentication with email verification implemented from the
+              ground-up.
+            </p>
+            <div class="imageTucan">
+              <a target="_blank" href="https://github.com/Trempo/tucan">
+                <img
+                  src="assets/tucancapture.png"
+                  alt=""
+                  style="border-radius: 25px"
+                  width="100%"
+                />
+              </a>
+            </div>
+            <h6 class="pt-4">>Entry</h6>
+            <p>
+              Entry is a mobile app targeted towards archaic nightclubs that
+              don't have a technology-base entry system. Using QR codes, a
+              Flutter front and a Firebase back, it authenticates club bookings
+              and decreases outside queues.
+            </p>
+            <a target="_blank" href="https://github.com/Trempo/tucan">
+              <img
+                src="assets/tucancapture.png"
+                alt=""
+                style="border-radius: 25px"
+                width="100%"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </main>
     <nav class="navbar fixed-bottom navbar-expand-sm">
       <div class="container d-flex" id="navbarCollapse">
-        <div class="p-2"><a class="navlink" href="#inicio">Start</a></div>
-        <div class="p-2">
-          <a href="#installedlibraries" class="navlink">Installed Libraries</a>
+        <div class="p-2 d-flex justify-content-between">
+          <a class="navlink" href="#inicio">Start</a>
         </div>
-        <div class="p-2"><a href="" class="navlink">Projects</a></div>
-        <div class="p-2">
+        <div class="p-2 d-flex justify-content-between">
+          <a
+            href="#installedlibraries"
+            class="navlink"
+            style="text-align: center"
+            >Installed Libraries</a
+          >
+        </div>
+        <div class="p-2 d-flex justify-content-between">
+          <a href="#projectstitle" class="navlink">Projects</a>
+        </div>
+        <div class="p-2 d-flex justify-content-between">
           <a href="" class="navlink">About me</a>
         </div>
       </div>
     </nav>
+    <div class="container shadowBox">
+      <footer class="rainbow rainbow_text_animated">
+        © 2022 Felipe Bedoya.
+      </footer>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
