@@ -28,6 +28,11 @@ audio::-webkit-media-controls-panel {
 
 #toggler {
   color: aqua;
+  margin-bottom: 10px;
+}
+
+.hamburgerIcon {
+  width: 32px;
 }
 
 nav {
