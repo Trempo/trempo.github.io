@@ -11,7 +11,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-
+    <link rel="shortcut icon" href="assets/coding.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -344,24 +344,41 @@
         </div>
       </div>
     </main>
-    <nav class="navbar fixed-bottom navbar-expand-sm">
-      <div class="container d-flex" id="navbarCollapse">
-        <div class="p-2 d-flex justify-content-between">
-          <a class="navlink" href="#inicio">Start</a>
-        </div>
-        <div class="p-2 d-flex justify-content-between">
-          <a
-            href="#installedlibraries"
-            class="navlink"
-            style="text-align: center"
-            >Installed Libraries</a
+    <nav class="navbar navbar-expand-lg fixed-bottom">
+      <div class="container">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-        </div>
-        <div class="p-2 d-flex justify-content-between">
-          <a href="#projectstitle" class="navlink">Projects</a>
-        </div>
-        <div class="p-2 d-flex justify-content-between">
-          <a href="#contacttitle" class="navlink">About me</a>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link navlink" aria-current="page" href="#inicio"
+                  >Start</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlink" href="#installedlibraries"
+                  >Installed Libraries</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlink" href="#projectstitle">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlink" href="#contacttitle">About Me</a>
+              </li>
+            </ul>
+            </form>
+          </div>
         </div>
       </div>
     </nav>
@@ -391,3 +408,15 @@
     </script>
   </body>
 </html>
+
+<div class="container d-flex" id="navbarCollapse">
+  <div class="p-2 d-flex justify-content-between">
+    <div class="p-2 d-flex justify-content-between"></div>
+    <div class="p-2 d-flex justify-content-between">
+      <a href="#projectstitle" class="navlink">Projects</a>
+    </div>
+    <div class="p-2 d-flex justify-content-between">
+      <a href="#contacttitle" class="navlink">About me</a>
+    </div>
+  </div>
+</div>

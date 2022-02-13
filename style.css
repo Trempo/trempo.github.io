@@ -19,6 +19,10 @@ audio::-webkit-media-controls-panel {
   color: #151618;
 }
 
+.navbar-toggler {
+  color: aqua;
+}
+
 nav {
   background-color: #151618;
 }
